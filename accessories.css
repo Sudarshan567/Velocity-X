@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+h2{
+    padding-left: 20px;
+}
+body{
+    background-color:gray;
+}
+
+.nav {
+    height: 100px;
+    background-color:#000;
+}
+.logo p{
+    width: 250px;
+    display: inline-block;
+    color: darkgrey;
+    font-weight: 50px;
+    font-size: x-large;
+    font-family: fantasy;
+    padding-top: 34px;
+    padding-left: 85px;
+    cursor: pointer;
+}
+
+.nav ul{
+    width: 100px;
+    display: inline;
+    padding-left: 50%;
+    text-decoration: none;
+}
+.nav li{
+    display: inline;
+    padding-left: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+}
+.nav li a:hover{
+    color: white;
+    transition: 0.5ms;
+    font-size: x-large;
+}
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+} 
+h3{
+    padding-left: 20px;
+}
+.categories button{
+    padding: 10px;
+    margin-right: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categories{
+    margin-left: 100px;
+}
+.watch1{
+    display: inline-block;
+}
+.watch1 img{
+    cursor: pointer;
+    margin-right: 50px;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+}
+.w1 b{
+    margin-left: 150px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+.w1 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+.w1 button{
+    display: inline;
+    margin-left: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*----------this for the all first images like belt1,watch1 etc on the page for both men and women--------*/
+/*----used this code by using the same class name in the women and commen section to optmise code--------*/
+/*-----similarly same class name is used in multiple section for code optimizing----------------------*/
+.watch2{
+    display: inline-block;
+    margin-right: 75px;
+}
+.w2{
+    display: inline;
+}
+.watch2 img{
+    cursor: pointer;
+    display: inline;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+    border: #000;
+    border-style:solid;
+    border-width: 5px;
+    margin-right: 30px;
+}
+.w2 b{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 50px;
+    display: inline;
+}
+.w2 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+.w2 button{
+    display: inline;
+    margin-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*-------------this for the second images in the page for both men and women------------*/
+/*-----------this for the second image like watch2,bracelet2 etc i have not used in all place but in 
+some places in the women section and in commen the same class name is used to optmise the code----------*/
+
+.watch3{
+    margin-right: 200px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.watch3 img{
+    cursor: pointer;
+    margin-right: 50px;
+    height: 250px;
+    width: 250px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: solid;
+}
+.w3 b{
+    margin-right: 200px;
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+.w3 p{
+    width:250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 200px;
+}
+.w3 button{
+    display: inline;
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h4 a{
+    color: #000;
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+/*h4 a:hover{
+    color: rgb(246, 245, 247);
+}*/
