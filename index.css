@@ -1,15 +1,17 @@
 *{
     padding: 0%;
     margin: 0%;
-    user-select: none;
+    
 }
 ul{
-  margin-left: 67%; 
+  margin-left: 60%; 
+  display: inline;
 }
 li{
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     font-size: x-large;
+    font-weight: 600;
 }
 li a{
     text-decoration: none;
@@ -19,6 +21,16 @@ li a{
 .BMW{    
     background-color: black;
     display: block;
+    height: 8%;
+}
+.BMW h1{
+    color: white;
+    display: inline;
+    padding-left: 80px;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: 0px;
 }
 li a:hover{  
     color: chartreuse;
@@ -38,20 +50,28 @@ li a:hover{
     text-align: right;
     padding-right: 90px;
     font-size: 40px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 .intro h2 {
     text-align:right;
-    padding-right: 355px; /*-----to move content from left or right*/
+    padding-right: 340px; /*-----to move content from left or right*/
 }
 /*----view more font style*/
 h2 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 40px;  
+    text-decoration: none;
+    font-size: 28px;
+}
+.intro h2 a:hover {
+    color: red;
+    cursor: pointer;
 }
   /*--------------------- Second section-------------------------*/
 .about img{
     float: right;
-    height: 67.5vh;
+    height: 67.5vh; 
     margin-bottom: 15px;
 }
 .about{
@@ -171,4 +191,5 @@ h2 a{
 }
 .End a{
     color:black;
+    font-size: xx-large;
 }
